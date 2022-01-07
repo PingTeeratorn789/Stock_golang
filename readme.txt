@@ -12,3 +12,7 @@
 4. Create app and pipe line 
 5. Back to sourcecode & revise server.go by editing port configuration
 6. go to heroku and click setting tab and add variable GOVERSION
+
+--- View logs in heroku ---
+1. https://devcenter.heroku.com/articles/heroku-cli
+2. heroku logs --tail --app stock-golang
