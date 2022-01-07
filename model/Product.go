@@ -3,11 +3,11 @@ package model
 import "time"
 
 type Product struct {
-	ID        uint `gorm:"primary_key" binding:"required"`
-	Name      string 
-	Stock     int64
-	Price     float64
-	Image     string
-	CreatedAt time.Time
+	ID        uint `json:"id"; gorm:"primary_key" binding:"required"`
+	Name      string `json:"name"`
+	Stock     int64  `json:"stock"`
+	Price     float64 `json:"price"`
+	Image     string `json:"image"`
+	CreatedAt time.Time `json:"time"`
 }
 
