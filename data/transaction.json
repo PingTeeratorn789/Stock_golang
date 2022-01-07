@@ -1,0 +1,8 @@
+{
+    "total": 50.50,
+    "paid" : 100,
+    "change": 49.50,
+    "payment_type": "cash",
+    "payment_detail": "full",
+    "order_list" : "[]"
+}
